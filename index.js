@@ -17,7 +17,7 @@ say('Shadows Bot\nWhatsApp Bot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`Bot Created By Shadow`, {
+say(`Created By Shadow`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
