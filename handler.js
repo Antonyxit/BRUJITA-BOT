@@ -1544,7 +1544,7 @@ global.dfail = (type, m, conn) => {
     mods: '* [ ❗ ] Este comando solo puede ser utilizado por moderadores y el/la propietario(a) (owner) del Bot.*',
     premium: '* [ ❗ ] Este comando solo puede ser utilizado por usarios premium y el/la propietario(a) (owner) del Bot.*',
     group: '* [ ❗ ] Este comando solo puede ser utilizado en grupos.*',
-    private: '* [ ❗ ] Este comando solo puede ser utilizado en el chat privado del Bot.*',
+    private: '* [ ❗ ] Este comando solo puede ser utilizado en el chat privado del Bot*',
     admin: '* [ ❗ ] Este comando solo puede ser usado por admins del grupo.*',
     botAdmin: '* [ ❗ ] Para poder usar este comando es necesario que yo sea admin.*',
     unreg: '* 🛑 Hey!! Alto, no estas registrado 🛑 *\n\n* Para poder usar este comando debes registrarte, usa el comando:*\n*➣ #verificar nombre.edad*',
