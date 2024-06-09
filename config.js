@@ -44,12 +44,12 @@ global.titulowm2 = `𝑺𝒕𝒓𝒂𝒘𝑩𝒐𝒕 🍓`
 global.igfg = '𝑺𝒕𝒓𝒂𝒘𝑩𝒐𝒕 🍓';
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ...*';
 
-global.imagen1 = fs.readFileSync('./menal.png');
+global.imagen1 = fs.readFileSync('./menew.png');
 global.imagen2 = fs.readFileSync('./src/aval.png');
 global.imagen3 = fs.readFileSync('./src/aval.png');
-global.imagen4 = fs.readFileSync('./menal.png');
+global.imagen4 = fs.readFileSync('./menew.png');
 global.imagen5 = fs.readFileSync('./src/aval.png');
-global.imagen6 = fs.readFileSync('./menal.png');
+global.imagen6 = fs.readFileSync('./menew.png');
 
 global.mods = [];
 
