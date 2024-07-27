@@ -1,7 +1,7 @@
 {
-  "name": "TheMystic-Bot-MD",
+  "name": "BrujitaBot",
   "version": "1.0.0",
-  "description": "Subs. al canal de YT The Shadow Borkers - TEAM",
+  "description": "BrujitaBot",
   "main": "index.js",
   "type": "module",
   "directories": {
