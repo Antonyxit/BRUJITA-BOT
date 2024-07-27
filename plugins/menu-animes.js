@@ -19,54 +19,56 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `
-   𝐒𝐇𝐀𝐃𝐎𝐖.𝐁𝐎𝐓 ⭐
+  ╭═══〘 ✯✯✯✯✯✯✯✯✯ 〙══╮
+║    ◉— *BrujitaBot* —◉
+║≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡║
+║➤ *𝗛ola, ${taguser}*
+╰═══╡✯✯✯✯✯✯✯✯✯╞═══╯
 
- *𝗛ola, ${taguser}*
-
-    𝐌𝐄𝐍𝐔-𝐀𝐍𝐈𝐌𝐄 ⭐
-
-⭐_${usedPrefix}lolivid_
-⭐_${usedPrefix}loli_
-⭐_${usedPrefix}ppcouple_
-⭐_${usedPrefix}neko_
-⭐_${usedPrefix}waifu_
-⭐_${usedPrefix}akira_
-⭐_${usedPrefix}akiyama_
-⭐_${usedPrefix}anna_
-⭐_${usedPrefix}asuna_
-⭐_${usedPrefix}ayuzawa_
-⭐_${usedPrefix}boruto_
-⭐_${usedPrefix}chiho_
-⭐_${usedPrefix}chitoge_
-⭐_${usedPrefix}deidara_
-⭐_${usedPrefix}erza_
-⭐_${usedPrefix}elaina_
-⭐_${usedPrefix}eba_
-⭐_${usedPrefix}emilia_
-⭐_${usedPrefix}hestia_
-⭐_${usedPrefix}hinata_
-⭐_${usedPrefix}inori_
-⭐_${usedPrefix}isuzu_
-⭐_${usedPrefix}itachi_
-⭐_${usedPrefix}itori_
-⭐_${usedPrefix}kaga_
-⭐_${usedPrefix}kagura_
-⭐_${usedPrefix}kaori_
-⭐_${usedPrefix}keneki_
-⭐_${usedPrefix}kotori_
-⭐_${usedPrefix}kurumi_
-⭐_${usedPrefix}madara_
-⭐_${usedPrefix}mikasa_
-⭐_${usedPrefix}miku_
-⭐_${usedPrefix}minato_
-⭐_${usedPrefix}naruto_
-⭐_${usedPrefix}nezuko_
-⭐_${usedPrefix}sagiri_
-⭐_${usedPrefix}sasuke_
-⭐_${usedPrefix}sakura_
-⭐_${usedPrefix}cosplay_
-
-𝐒𝐇𝐀𝐃𝐎𝐖.𝐁𝐎𝐓 ⭐`.trim();
+┏━━━━━━━━━━━━━━━━┓
+┃ *< MENU-ANIME />*
+┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡┃
+┣ ඬ⃟ 🧿 _${usedPrefix}lolivid_
+┣ ඬ⃟ 🧿 _${usedPrefix}loli_
+┣ ඬ⃟ 🧿 _${usedPrefix}ppcouple_
+┣ ඬ⃟ 🧿 _${usedPrefix}neko_
+┣ ඬ⃟ 🧿 _${usedPrefix}waifu_
+┣ ඬ⃟ 🧿 _${usedPrefix}akira_
+┣ ඬ⃟ 🧿 _${usedPrefix}akiyama_
+┣ ඬ⃟ 🧿 _${usedPrefix}anna_
+┣ ඬ⃟ 🧿 _${usedPrefix}asuna_
+┣ ඬ⃟ 🧿 _${usedPrefix}ayuzawa_
+┣ ඬ⃟ 🧿 _${usedPrefix}boruto_
+┣ ඬ⃟ 🧿 _${usedPrefix}chiho_
+┣ ඬ⃟ 🧿 _${usedPrefix}chitoge_
+┣ ඬ⃟ 🧿 _${usedPrefix}deidara_
+┣ ඬ⃟ 🧿 _${usedPrefix}erza_
+┣ ඬ⃟ 🧿 _${usedPrefix}elaina_
+┣ ඬ⃟ 🧿 _${usedPrefix}eba_
+┣ ඬ⃟ 🧿 _${usedPrefix}emilia_
+┣ ඬ⃟ 🧿 _${usedPrefix}hestia_
+┣ ඬ⃟ 🧿 _${usedPrefix}hinata_
+┣ ඬ⃟ 🧿 _${usedPrefix}inori_
+┣ ඬ⃟ 🧿 _${usedPrefix}isuzu_
+┣ ඬ⃟ 🧿 _${usedPrefix}itachi_
+┣ ඬ⃟ 🧿 _${usedPrefix}itori_
+┣ ඬ⃟ 🧿 _${usedPrefix}kaga_
+┣ ඬ⃟ 🧿 _${usedPrefix}kagura_
+┣ ඬ⃟ 🧿 _${usedPrefix}kaori_
+┣ ඬ⃟ 🧿 _${usedPrefix}keneki_
+┣ ඬ⃟ 🧿 _${usedPrefix}kotori_
+┣ ඬ⃟ 🧿 _${usedPrefix}kurumi_
+┣ ඬ⃟ 🧿 _${usedPrefix}madara_
+┣ ඬ⃟ 🧿 _${usedPrefix}mikasa_
+┣ ඬ⃟ 🧿 _${usedPrefix}miku_
+┣ ඬ⃟ 🧿 _${usedPrefix}minato_
+┣ ඬ⃟ 🧿 _${usedPrefix}naruto_
+┣ ඬ⃟ 🧿 _${usedPrefix}nezuko_
+┣ ඬ⃟ 🧿 _${usedPrefix}sagiri_
+┣ ඬ⃟ 🧿 _${usedPrefix}sasuke_
+┣ ඬ⃟ 🧿 _${usedPrefix}sakura_
+┣ ඬ⃟ 🧿 _${usedPrefix}cosplay_
+┗━━━━━━━━━━━━━━━━┛`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
