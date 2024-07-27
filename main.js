@@ -351,8 +351,8 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  conn.welcome = '@subject\n 𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒙\n @user \n\n 𝑫𝒆𝒔𝒄𝒓𝒊𝒑𝒄𝒊𝒐𝒏:\n\n@desc\n\n 𝑺𝒕𝒓𝒂𝒘𝑩𝒐𝒕';
-  conn.bye = '@user \n𝑯𝒂𝒔𝒕𝒂 𝑵𝒖𝒏𝒄𝒂! \n𝑺𝒕𝒓𝒂𝒘𝑩𝒐𝒕';
+  conn.welcome = '@subject\n 𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒙\n @user \n\n 𝑫𝒆𝒔𝒄𝒓𝒊𝒑𝒄𝒊𝒐𝒏:\n\n@desc\n\nBrujitaBot';
+  conn.bye = '@user \n𝑯𝒂𝒔𝒕𝒂 𝑵𝒖𝒏𝒄𝒂! \nBrujitaBot';
   conn.spromote = '*[ ❗ ] @user 𝑺𝒆 𝑺𝒖𝒎𝒂 𝑨𝒍 𝑮𝒓𝒖𝒑𝒐 𝑫𝒆 𝑨𝒅𝒎𝒊𝒏𝒔.*';
   conn.sdemote = '*[ ❗ ] @user 𝑨𝒃𝒂𝒏𝒅𝒐𝒏𝒂 𝑬𝒍 𝑮𝒓𝒖𝒑𝒐 𝑫𝒆 𝑨𝒅𝒎𝒊𝒏𝒔.*';
   conn.sDesc = '*[ ❗ ] 𝑺𝒆 𝑯𝒂 𝑴𝒐𝒅𝒊𝒇𝒊𝒄𝒂𝒅𝒐 𝑳𝒂 𝑫𝒆𝒔𝒄𝒓𝒊𝒑𝒄𝒊𝒐𝒏 𝑫𝒆𝒍 𝑮𝒓𝒖𝒑𝒐*\n\n*𝐍𝐮𝐞𝐯𝐚 𝐃𝐞𝐬𝐜: @desc.*';
@@ -512,7 +512,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `🍓`;
+  const bio = `𝘽𝙔 𝘿𝘼𝙉𝙉𝙔 𝙑𝙉𝙏𝙎`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
